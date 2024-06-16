@@ -1,0 +1,41 @@
+---
+title: 자바 공부 기록 
+description: 자바를 공부하면서 배운 내용을 정리하는 공간입니다. 
+template: doc
+hero:
+  tagline: 자바를 공부하면서 배운 내용을 정리하는 공간입니다. 
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: 기록 읽어보기
+      link: /guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: 프로젝트에 대하여
+      link: https://starlight.astro.build
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 자바 자료 출처
+
+모든 내용은 오라클 자바 공식 문서에서 가져온 내용을 재구성한 내용입니다. 
+
+## Next steps
+
+<CardGrid stagger>
+	<Card title="캡슐화" icon="pencil">
+	 캡슐화는 객체가 데이터와 메서드를 세계로부터 숨길 수 있는 능력을 설명합니다. 
+	</Card>
+	<Card title="상속" icon="add-document">
+		Inheritance is an important feature of object-oriented programming languages. It
+enables classes to include properties of other classes.  상속은 다른 클래스의 속성을 포함할 수 있게 합니다.
+	</Card>
+	<Card title="다형성" icon="setting">
+		다형성은 다른 객체가 동일한 메시지에 다르게 응답할 수 있는 능력입니다.
+	</Card>
+	<Card title="추상화" icon="open-book">
+		추상화는 구현 세부 정보를 숨기고 사용자에게 기능만 표시하는 과정을 말합니다.
+	</Card>
+</CardGrid>
